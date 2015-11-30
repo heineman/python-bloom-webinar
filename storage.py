@@ -17,7 +17,7 @@ class Storage :
         if val < 0:
             raise "Storage only supports non-negative integers" 
         if self.size < val:
-            self.data = self.data + ([False]*(val - self.size + 1))
+            self.data += ([False]*(val - self.size + 1))
             self.size = len(self.data)
         self.data[val] = True
     
