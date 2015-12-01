@@ -1,7 +1,7 @@
 configInformation = {
-  'user': 'regular',
-  'password': '4AZYDR',
-  'host': 'mysql.wpi.edu',
-  'database': 'primarystoragedb',
+  'user': 'SOMENAME',
+  'password': 'SOMEPASSWORD',
+  'host': 'SOMEHOSTNAME',
+  'database': 'SOMEDBNAME',
   'raise_on_warnings': True,
 }
